@@ -1,0 +1,51 @@
+.analyse-banner {
+  background: #22d661;  
+  border-radius: 8px;
+  margin: 2rem 0 3rem 0;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+}
+.result-banner {
+  background: #22d661;  
+  border-radius: 8px;
+  margin: 2rem 6rem 3rem 6rem;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+#analyse-banner-container {
+  background: #25D366;
+  border-radius: 5px;
+  padding: 30px 10%;
+  height: 360px;
+  color: white;
+  margin-top: 30px;
+}
+
+#analyse-banner-right {
+  padding: 110px 0;
+}
+
+.analyse-banner-title {
+  font-size: "37px";
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  line-height: 1.2;
+  color: #ffffff !important;
+}
+
+@media (max-width: 900px) {
+  .analyse-banner {
+    padding: 2.5rem 0.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+  .analyse-banner h1 {
+    font-size: 1.3rem;
+  }
+} 
